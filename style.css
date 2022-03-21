@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #edf2f4;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    min-width: max-content;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    color: #2b2d42;
+}
+
+.timer-container {
+    border-radius: .8rem;
+    box-shadow: 0 0 10px #CED4DD;
+    background-color: white;
+    padding: 2rem;
+    color: #2b2d42;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.timer-container h1 {
+    margin: 0;
+    background-color: skyblue;
+    /* color: white; */
+}
+
+.countdown {
+    font-size: 6rem;
+    line-height: 6rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn-group {
+    padding-top: 1rem;
+    display: flex;
+    column-gap: 1rem;
+}
+
+.btn {
+    flex: 1;
+    font-size: 1.5rem;
+    border: 0;
+    border-radius: .3rem;
+    padding: .8rem;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color ease-in .2s;
+}
+
+.btn-start {
+    background-color: skyblue;
+}
+
+.btn-start:hover {
+    background-color: #014f86;
+    color: white;
+}
+
+.btn-reset {
+    border: solid 2px #d90429;
+    color: #d90429;
+}
+
+
+.btn-reset:hover {
+    background-color: #d90429;
+    color: white;
+}
